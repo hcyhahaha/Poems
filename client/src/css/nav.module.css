@@ -1,0 +1,58 @@
+.nav {
+    height: 50px;
+    padding: 5px 50px;
+    line-height: 50px;
+    background-color: #126e82;
+}
+.ulFather {
+    display: flex;
+    margin-top: -7px;
+    justify-content: space-between;
+}
+
+.ulFather a:hover{
+   color: #b4c4ce;
+}
+
+.ulFather a {
+    color: white;
+}
+/* 搜索框 */
+.inputBox {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(10px);
+    /* background-color: cyan; */
+}
+.inputBox input {
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    /* background-color: red; */
+}
+.inputBox  a {
+    display: inline-block;
+}
+.inputBox .span1 {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.inputBox .span2 {
+    height: 50px;
+}
+
+.icon {
+    /* background-color: red; */
+    fill: currentColor;
+    color: #126e82;
+}

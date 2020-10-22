@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bottombox {
+    position: fixed;
+    /* transform: translateY(130px); */
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    background-color: #272727;
+    text-align: center;
+}
+
+.bottombox li {
+    list-style: none;
+    display: inline-block;
+    /* 字体公共样式 */
+    color: #a5aaad;
+    font-size: 12px;
+    margin: 2px 15px;
+}
+
+.bottombox ul {
+    margin: 0px;
+    margin-bottom: 0 !important;
+}
+
+.buttomBox1 li {
+    color: #ffffff;
+    margin: 12px 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.buttomBox3 li {
+    margin-left: 5px;
+}

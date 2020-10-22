@@ -1,0 +1,109 @@
+ .box {
+     /* background-color: tomato; */
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap; 
+ }
+ /* 结算 */
+ .settlementdiv {
+     margin-top: 10px;
+     width: 100%;     text-align: center;
+ }
+ .settlement {
+     border: 1px solid #126e82;
+     background-color: white;
+     color: #126e82;
+     outline: none;
+     margin: 0 auto;
+     height: 50px;
+     width: 300px;
+     font-size: 20px;
+     font-family: "宋体";
+     display: inline-block;
+ }
+ .settlement:hover {
+     color: white;
+     background-color: #126e82;
+ }
+ .minBox {
+     width: 300px;
+     height: 400px;
+     margin: 10px;
+     margin-left: 40px;
+     margin-right: 30px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     background-color: white;
+     box-shadow:0 2px 27px 6px rgba(0, 0, 0, .12);
+ }
+ .imgbox {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+ .imgdiv {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+ }
+ .imgbox img{
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+ }
+ .imgdiv img:hover {
+     transform: scale(1.3);
+ }
+ .name {
+     margin-top: 5px;
+     margin-left: 20px;
+     margin-right: 20px;
+     font-size: 14px;
+     /* background-color: teal; */
+ }
+ .price {
+    margin-top: 5px;
+    font-size: 14px;
+     /* background-color: teal; */
+ }
+ /* 加减 */
+ .subadd {
+     width: 250px;
+     height: 29px;
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #126e82;
+     border: 1px solid #126e82;
+     /* background-color: tomato; */
+ }
+ .subadd span {
+     width: 100%;
+     height: 100%;
+     height: 30px;
+     font-size: 14px;
+     text-align: center;
+     line-height: 30px;
+     background-color: white;
+ }
+ .subadd button {
+     outline: none;
+     background-color: white;
+     border: 1px solid transparent;
+     height: 30px;
+     width: 50px;
+ }
+ .subadd button:hover {
+     color: white;
+     background-color: #126e82;
+ }
+ .subadd .sub {
+     border-right: 1px solid #126e82;
+ }
+ .subadd .add {
+    border-left: 1px solid #126e82;
+}

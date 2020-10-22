@@ -1,0 +1,20 @@
+.detailsbox {
+    margin: 20px auto;
+    padding:10px;
+    width: 600px;
+    line-height: 40px;
+    background-color: white;
+}
+.title {
+    text-align: center;
+    font-size: 16px;
+}
+.dynastyBox {
+    text-align: center;
+    font-size: 16px;
+    font-family: "仿宋";
+}
+.content {
+    font-weight: bold;
+    font-family: "宋体";
+}

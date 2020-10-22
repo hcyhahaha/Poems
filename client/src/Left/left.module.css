@@ -1,0 +1,9 @@
+.box {
+    background-image: url(../img/3.gif);
+    background-repeat:no-repeat;
+    background-position: 0 20px;
+    background-size:350px;
+    background-color: transparent;
+    transform: rotate(17deg);
+    pointer-events: none;
+}

@@ -1,0 +1,15 @@
+/* 我的收藏 按钮 */
+.myshoucang1 {
+    transition: all 1s;
+    font-size: 23px;
+    font-family: "宋体";
+    color: white;
+    background-color: #126e82;
+}
+.myshoucang2 {
+    transition: all 1s;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #126e82;
+    background-color: white;
+}

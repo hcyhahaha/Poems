@@ -1,0 +1,111 @@
+/* 背景图层 */
+.bgcimg {
+    background-image: url(../img/10.gif);
+    /* background-repeat:no-repeat; */
+    /* background-position: 0 20px; */
+    /* background-size:1400px 600px; */
+    /* background-color: transparent; */
+    /* transform: rotate(17deg); */
+    pointer-events: none;
+    z-index: -1;
+}
+/* 内容 */
+.content {
+    text-align: center;
+    background-color: #fafafa75;
+    line-height: 40px;
+    margin: 10px 190px;
+    padding: 10px;
+}
+.title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.dynAut {
+    font-size: 13px;
+    text-align: center;
+    color: #656b70;
+}
+.text {
+    font-size: 16px;
+    font-family: "华文中宋";
+}
+/* 评论 */
+.comment {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+.comment svg {
+    display: inline-block;
+    position: absolute;
+    top: -18px;
+    left: 0;
+}
+/* 评论内容 */
+.contentBox {
+    background-color: #c8dfe4;
+}
+.contentBox button {
+    line-height: 0;
+}
+/* 隐藏按钮 button */
+.btn_hidden {
+    position: relative;
+    left: -50%;
+    transform: translate(50%, -5px);
+    border: 1px solid #126e82;
+    background-color: white;
+    outline: none;
+    width: 10%;
+    height: 32px;
+}
+.btn_hidden:hover {
+    color: white;
+    background-color: #126e82;
+}
+/* 评论输入框 div */
+.comment_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: sienna; */
+}
+.comment_input input {
+    border: 1px solid #126e82;
+    outline: none;
+    padding-left: 10px;
+    width: 90%;
+    height: 32px;
+}
+/* 评论按钮 */
+.comment_input button {
+    border: 1px solid #126e82;
+    border-left: 1px solid transparent;
+    background-color: white;
+    outline: none;
+    width: 10%;
+    height: 32px;
+}
+.comment_input button:hover {
+    color: white;
+    background-color: #126e82;
+}
+/* 展示出来的评论内容 */
+.show_comment {
+    /* background-color: tomato; */
+    font-size: 16px;
+    font-family: "楷体";
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 5px;
+}
+.show_comment p {
+    margin-top: 0;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #126e82;
+    /* background-color: yellowgreen; */
+}

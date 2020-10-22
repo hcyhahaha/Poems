@@ -1,0 +1,87 @@
+/* 背景图片层 */
+.bgcimg {
+    background-image: url(../img/9.gif);
+    /* background-repeat:no-repeat; */
+    /* background-position: 0 20px; */
+    /* background-size:1400px 600px; */
+    /* background-color: transparent; */
+    /* transform: rotate(17deg); */
+    pointer-events: none;
+    z-index: -1;
+}
+.fbox {
+    width: 600px;
+    background-color: #fafafa75;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 3px;
+}
+.searchType {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #126e82;
+    text-align: center;
+    /* background-color: tomato; */
+}
+.countentbox {
+    display: flex;
+    line-height: 30px;
+    padding-left: 5px;
+    margin: 10px auto;
+    overflow: hidden;
+    justify-content: space-between;
+    border-bottom: 2px solid #126e82;
+    /* background-color: #126e82; */
+}
+.countentbox:hover .ulBox{
+    height: 125px;
+}
+
+/* 朝代 */
+.typebox {
+    display: flex;
+    line-height: 30px;
+    padding-left: 5px;
+    margin: 10px auto;
+    overflow: hidden;
+    justify-content: space-between;
+    border-bottom: 2px solid #126e82;
+}
+.typebox:hover .ulBox {
+    height: 70px;
+}
+/* 形式 */
+.xingshibox {
+    display: flex;
+    line-height: 30px;
+    padding-left: 5px;
+    margin: 10px auto;
+    overflow: hidden;
+    justify-content: space-between;
+    border-bottom: 2px solid #126e82;
+}
+.type {
+    font-weight: bold;
+    color: #126e82;
+    width: 20%;
+}
+.ulBox {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    transition: all 1s;
+}
+.ulBox li {
+    color: #a5aaad;
+    cursor: pointer;
+    width: 70px;
+    text-align: center;
+}
+.ulBox li:hover {
+    font-weight: bold;
+    color: #126e82;
+}
